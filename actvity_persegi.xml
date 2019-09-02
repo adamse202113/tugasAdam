@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PersegiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="28dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/persegi"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keliling"
+                android:textSize="28sp" />
+
+
+            <EditText
+                android:id="@+id/edtSisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="@string/inputSisi" />
+
+            <Button
+                android:id="@+id/btnKel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Hitung" />
+
+            <TextView
+                android:id="@+id/hasilKel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Default"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/luas"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/edtLebar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="@string/inputLebar" />
+
+            <EditText
+                android:id="@+id/edtPanjang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="@string/inputPanjang" />
+
+            <Button
+                android:id="@+id/btnLuas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Hitung" />
+
+            <TextView
+                android:id="@+id/hasilLuas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Default"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/Reset" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
